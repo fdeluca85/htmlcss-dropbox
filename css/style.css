@@ -113,7 +113,18 @@ li a:hover{
 .jumbo img {
     width: 90%;
   }
-
+.jumbo .btn{
+    text-align: center;
+    width: 80%;
+    margin-top: 20px;
+    display:block;
+}
+.jumbo span{margin-top: 10px;
+    font-size: 15px;
+}
+.jumbo .arrow{
+    margin-top: 20px;
+    font-size: 40px;}
 /* *****main***** */
 
 /* *****footer***** */
