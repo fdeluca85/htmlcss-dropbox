@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container{
@@ -93,7 +93,7 @@ li a:hover{
 
 /* *****jumbotron***** */
 .jumbo{
-    height: 800px;
+    height: 750px;
     background-color: #B4D0E7;
 }
 .jumbo-txt{
@@ -136,6 +136,7 @@ li a:hover{
 .business h2{
     font-size: 50px;
     margin-bottom: 30px;
+    margin-top: 100px;
 }
 
 h3{
@@ -161,6 +162,7 @@ h5{
     margin-right: 80px;
 }
 .piani-txt{
+    text-align: justify;
     margin: 20px;
     line-height: 1.5;
 }
@@ -187,9 +189,11 @@ h6{
     width: 95%;
     height: 260px;
     border: 1px solid lightgray;
-    margin-top: 30px;
+    margin-top: 50px;
 }
-
+.prezzo{
+    font-weight: bolder;
+}
 
 .linea{
     display: inline-block;
@@ -197,6 +201,10 @@ h6{
     border-bottom: 1px solid grey;
     margin-bottom: 30px;
     
+}
+.fa-check{
+    color: #1E73FF;
+    font-size: 20px;
 }
 /* *****partner***** */
 
