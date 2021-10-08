@@ -138,6 +138,14 @@ li a:hover{
     margin-bottom: 30px;
 }
 
+h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+h5{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
 .fattura{
     display: inline-block;
     height: 20px;
@@ -146,24 +154,17 @@ li a:hover{
     border: 2px solid lightgray;
     
 }
-.piani{
+.colonna{
     width: calc(100% /3 - 80px);
     height: 900px;
     border: 2px solid lightgray;
     margin-right: 80px;
 }
-.piano-etr{
-    width: 95%;
-    height: 300px;
-    border: 1px solid lightgray;
-    margin-top: 30px;
-}
 .piani-txt{
-    width: 90%;
     margin: 20px;
     line-height: 1.5;
 }
-.piani h6{
+h6{
     text-align: center;
     padding: 10px;
     font-size: 20px;
@@ -176,16 +177,25 @@ li a:hover{
     padding-bottom: 20px;
 }
 .piani .btn{
+    font-size: 15px;
     text-align: center;
-    padding: 10px 25px;
+    padding: 10px 30px;
     margin: 30px;
     display:block;
 }
+.riga{
+    width: 95%;
+    height: 260px;
+    border: 1px solid lightgray;
+    margin-top: 30px;
+}
+
 
 .linea{
     display: inline-block;
     width: 40px;
     border-bottom: 1px solid grey;
+    margin-bottom: 30px;
     
 }
 /* *****partner***** */
