@@ -12,7 +12,6 @@ body{
 .container{
     width: 80%;
     margin: 0 auto;
-    padding-top: 100px;
 }
 
 .row::after{
@@ -68,6 +67,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 999;
 }
 
 nav{
@@ -132,11 +132,11 @@ li a:hover{
     font-size: 40px;}
 
 /* *****business***** */
+
 .business h2{
     font-size: 50px;
     margin-bottom: 30px;
 }
-
 
 .fattura{
     display: inline-block;
@@ -144,6 +144,19 @@ li a:hover{
     width: 20px;
     border-radius: 50%;
     border: 2px solid lightgray;
+    
+}
+.piani{
+    width: calc(100% /3 - 80px);
+    height: 600px;
+    border: 1px solid black;
+    margin-right: 80px;
+}
+.piano-etr{
+    width: 95%;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 30px;
 }
 /* *****footer***** */
 
@@ -175,6 +188,11 @@ li a:hover{
 }
 .debug .business{
     background-color: white;
-    height: 800px;
-    padding-top: 300px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+}
+.debug .piani{
+    background-color: yellowgreen;
+
 }
