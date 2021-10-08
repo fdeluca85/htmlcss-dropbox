@@ -148,16 +148,50 @@ li a:hover{
 }
 .piani{
     width: calc(100% /3 - 80px);
-    height: 600px;
-    border: 1px solid black;
+    height: 900px;
+    border: 2px solid lightgray;
     margin-right: 80px;
 }
 .piano-etr{
     width: 95%;
     height: 300px;
-    border: 1px solid black;
+    border: 1px solid lightgray;
     margin-top: 30px;
 }
+.piani-txt{
+    width: 90%;
+    margin: 20px;
+    line-height: 1.5;
+}
+.piani h6{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+    border-bottom: 2px solid lightgray;
+}
+.piani span{
+    display: block;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.piani .btn{
+    text-align: center;
+    padding: 10px 25px;
+    margin: 30px;
+    display:block;
+}
+
+.linea{
+    display: inline-block;
+    width: 40px;
+    border-bottom: 1px solid grey;
+    
+}
+/* *****partner***** */
+
+/* *****strumenti***** */
+
 /* *****footer***** */
 
 /* *****debug***** */
@@ -183,8 +217,8 @@ li a:hover{
 } */
 
 .debug main{
-    background-color: lightgoldenrodyellow;
-    height: 2000px;
+    /* background-color: lightgoldenrodyellow; */
+    height: 3000px;
 }
 .debug .business{
     background-color: white;
@@ -192,7 +226,7 @@ li a:hover{
     padding-bottom: 50px;
 
 }
-.debug .piani{
+/* .debug .piani{
     background-color: yellowgreen;
 
-}
+} */
