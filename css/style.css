@@ -7,6 +7,32 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+
+p {
+    
+}
+
+h2{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+h5{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+h6{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+    border-bottom: 2px solid lightgray;
 }
 
 .container{
@@ -45,9 +71,14 @@ body{
     padding: 5px 15px;
     text-decoration: none;
     margin-top: 30px;
-    display:block;    
+    display:inline-block;    
 }
-
+.linea{
+    display: inline-block;
+    width: 50px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 30px;   
+}
 
 /* *****header***** */
 header{
@@ -86,6 +117,8 @@ header{
 .navbar .btn{
     margin: 0;
     display: inline;
+
+    
 }
 nav{
     text-align: left;
@@ -106,8 +139,6 @@ li a:hover{
     text-decoration: underline;
 }
 
-/* *****partner***** */
-
 
 /* *****main***** */
 
@@ -116,10 +147,7 @@ li a:hover{
     height: 750px;
     background-color: #B4D0E7;
 }
-.jumbo-txt{
-    margin-bottom: 80px;
-    line-height: 1.5;
-}
+
 .jumbo h1{
     font-size: 90px;
 }
@@ -139,7 +167,9 @@ li a:hover{
     width: 90%;
   }
 
-.jumbo span{margin-top: 10px;
+.jumbo span{
+    display: block;
+    margin-top: 10px;
     font-size: 15px;
 }
 .jumbo .arrow{
@@ -148,20 +178,6 @@ li a:hover{
 
 /* *****business***** */
 
-.business h2{
-    font-size: 50px;
-    margin-top: 100px;
-    margin-bottom: 30px;
-}
-
-h3{
-    font-size: 30px;
-    margin-bottom: 30px;
-}
-h5{
-    font-size: 20px;
-    margin-bottom: 30px;
-}
 .fattura{
     display: inline-block;
     height: 20px;
@@ -177,21 +193,15 @@ h5{
     margin-right: 80px;
 }
 .piani .btn{
-    font-size: 15px;
-    padding: 10px 30px;    
+    display: block;
+    padding: 10px 30px; 
+    font-size: 15px;   
 }
 .piani-txt{
-    text-align: justify;
-    margin: 20px;
+    margin: 20px 50px;
     line-height: 1.5;
 }
-h6{
-    text-align: center;
-    padding: 10px;
-    font-size: 20px;
-    font-weight: lighter;
-    border-bottom: 2px solid lightgray;
-}
+
 .piani span{
     display: block;
     font-size: 15px;
@@ -208,21 +218,108 @@ h6{
     font-weight: bolder;
 }
 
-.linea{
-    display: inline-block;
-    width: 40px;
-    border-bottom: 1px solid grey;
-    margin-bottom: 30px;
-    
-}
+
 .fa-check{
     color: #1E73FF;
     font-size: 20px;
 }
 /* *****partner***** */
+.partner-img{
+    width: 50%;
+}
+.partner-txt{
+    margin: 50px;
+    width: 40%;
+    padding: 20px;
+}
 
 /* *****strumenti***** */
+.col-strumenti{
+    width: calc(100% /3 - 80px);
+    /* height: 600px; */
+    margin-right: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
+.col-strumenti img{
+    width: 430px;
+    object-fit: contain;
+}
+.col-strumenti span{
+    text-decoration: underline;
+}
+/* *****team***** */
+.team-titolo{
+    width: 35%;
+    margin-left: 10%;
+}
+
+/*  */
+.team{
+    background-color: #F5F5F5;
+    height: 607px;
+}
+.team2{
+    padding: 50px 0;
+    background-color: #B4D0E7;
+}
+.team2 .btn{
+    position: relative;
+    top: 80px;
+    right: 300px;
+    border: none;
+    padding:10px 50px
+}
+.team2 h2{
+    color: #61082B;
+    font-weight: bold;
+}
+.team-sx{ 
+    width: 30%;
+    }
+.team-cx{ 
+    width: 40%;    
+    }
+.team-dx{ 
+    width: 30%;   
+    text-align: right;
+}
+.blocco{
+    height: 300px;
+    width: 300px;
+    object-fit: scale-down;
+}
+.blocco img{
+width: 50%;    
+}
+
+.designit{
+    background-color: #A2D39B;
+    border: 15px solid #D0E9CD;
+}
+.asu{
+    background-color: #61082B;
+}
+
+.florida{
+    background-color: #0093CE;
+}
+.topps{
+    background-color: #FF1C1C;
+}
+.bycle{
+    background-color: #D5001F;
+}
+.hearst{
+    background-color: #B4D0E7;
+}
+.lplanet{
+    background-color: #0D2481;
+}
+.cchannel{
+    background-color: #FFD830;
+}
 /* *****footer***** */
 
 /* *****debug***** */
@@ -249,7 +346,7 @@ h6{
 
 .debug main{
     /* background-color: lightgoldenrodyellow; */
-    height: 3000px;
+    height: 6000px;
 }
 .debug .business{
     background-color: white;
@@ -261,17 +358,17 @@ h6{
     background-color: yellowgreen;
 } */
 
-.debug .partner{
-    /* background-color: green;
-    height: 400px; */
+/* .debug .partner{
+    background-color: green;
+    height: 400px;
     margin-top: 100px;
-}
+} */
 
-.debug .partner-img{
+/* .debug .partner-img{
     width: 50%;
-}
+} */
 
-.debug .partner-txt{
+/* .debug .partner-txt{
     margin: 50px;
     width: 40%;
     padding: 20px;
@@ -279,4 +376,18 @@ h6{
 }
 .partner .btn{
     display: inline-block;
-}
+} */
+
+/* .debug .col-strumenti{
+    width: calc(100% /3 - 80px);
+    height: 600px;
+    margin-right: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: chocolate;
+} */
+/* .team-t{
+    width: 35%;
+    background-color: crimson;
+    margin-left: 10%;
+} */
