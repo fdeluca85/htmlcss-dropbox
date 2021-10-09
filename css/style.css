@@ -275,12 +275,31 @@ li a:hover{
     color: #61082B;
     font-weight: bold;
 }
+.team-logo{
+    padding-top: 20px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    object-fit: scale-down;
+}
+.team-txt{
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
 .team-sx{ 
     width: 30%;
     }
 .team-cx{ 
     width: 40%;    
     }
+.team-cx .linea{
+    position: relative;
+    top: 100px;
+    left: 0px;
+
+}
 .team-dx{ 
     width: 30%;   
     text-align: right;
@@ -293,7 +312,7 @@ li a:hover{
 .blocco img{
 width: 50%;    
 }
-
+/* ****team logo***** */
 .designit{
     background-color: #A2D39B;
     border: 15px solid #D0E9CD;
@@ -346,7 +365,7 @@ width: 50%;
 
 .debug main{
     /* background-color: lightgoldenrodyellow; */
-    height: 6000px;
+    height: 16000px;
 }
 .debug .business{
     background-color: white;
