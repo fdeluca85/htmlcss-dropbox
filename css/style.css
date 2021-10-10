@@ -258,7 +258,7 @@ li a:hover{
 /*  */
 .team{
     background-color: #F5F5F5;
-    height: 607px;
+    height: 507px;
 }
 .team2{
     padding: 50px 0;
@@ -305,8 +305,8 @@ li a:hover{
     text-align: right;
 }
 .blocco{
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     object-fit: scale-down;
 }
 .blocco img{
@@ -338,6 +338,26 @@ width: 50%;
 }
 .cchannel{
     background-color: #FFD830;
+}
+
+/* *****faq***** */
+.faq h3{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 0;
+}
+
+.faq h4{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+.faq .fas{
+    position: relative;
+    top: 30px;
+    right: 20px;
 }
 /* *****footer***** */
 
