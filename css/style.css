@@ -38,7 +38,6 @@ h6{
 .container{
     width: 80%;
     margin: 0px auto;
-    padding-bottom: 100px;
 }
 
 .row::after{
@@ -117,22 +116,25 @@ header{
 .navbar .btn{
     margin: 0;
     display: inline;
+    color: white;
+    padding: 5px 10px;
 
     
 }
-nav{
+.navbar{
     text-align: left;
 }
 
-li{
+.navbar li{
     display: inline-block;
     list-style: none;
 }
 
-li a{
+.navbar li a{
     color: black;
     padding:0 15px;
     text-decoration: none;
+    display: inline-block;
 }
 
 li a:hover{
@@ -177,6 +179,10 @@ li a:hover{
     font-size: 40px;}
 
 /* *****business***** */
+
+.business{
+    padding-top: 100px;
+}
 
 .fattura{
     display: inline-block;
@@ -224,6 +230,10 @@ li a:hover{
     font-size: 20px;
 }
 /* *****partner***** */
+
+.partner{
+    padding-top: 200px;
+}
 .partner-img{
     width: 50%;
 }
@@ -361,6 +371,14 @@ width: 50%;
 }
 /* *****footer***** */
 
+footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: black;
+    margin-top: 100px;
+
+}
+
 /* *****debug***** */
 
 /* .debug header{
@@ -383,8 +401,8 @@ width: 50%;
     left: 0;
 } */
 
-.debug main{
-    /* background-color: lightgoldenrodyellow; */
+/* .debug main{
+    background-color: lightgoldenrodyellow;
     height: 16000px;
 }
 .debug .business{
@@ -392,7 +410,7 @@ width: 50%;
     padding-top: 100px;
     padding-bottom: 50px;
 
-}
+} */
 /* .debug .piani{
     background-color: yellowgreen;
 } */
@@ -430,3 +448,47 @@ width: 50%;
     background-color: crimson;
     margin-left: 10%;
 } */
+
+ .foot{
+    width: calc(100% /5);
+    /* height: 300px;
+    border: 2px solid lightgray;    
+    background-color: teal; */
+    color: white;
+    padding-bottom: 100px;
+    
+}
+footer h4{
+    color: white;
+    padding: 0 10px;
+    
+}
+
+.foot ul,li,a{
+    display: block;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+/* .foot-bottom{
+    height: 200px;
+    background-color: tomato;
+} */
+.foot-bottom .linea{
+    color: lightgray;
+    width: 150px;
+
+}
+
+.foot-bottom select{
+    display: block;
+    background-color: black;
+    color: lightgray;
+    border: none;
+}
+.foot-bottom .fas{
+    color: lightgreen;
+}
