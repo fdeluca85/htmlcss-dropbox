@@ -221,7 +221,9 @@ header{
 .business{
     padding-top: 100px;
 }
-
+.business h2 {
+    padding-top: 200px
+}
 .fattura{
     display: inline-block;
     height: 20px;
@@ -298,6 +300,10 @@ header{
 }
 
 /* *****strumenti***** */
+.strumenti{
+    width: 80vw;
+    margin: 0px auto;
+}
 .col-strumenti{
     width: calc(100% /3 - 80px);
     /* height: 600px; */
@@ -356,16 +362,10 @@ header{
     margin-left: 50px;
 }
 
-.team-sx{
-    width: 30wv;
-    height: 20px;
-    background-color: lightseagreen;
-    
-}
+
 .team-cx{
     width: calc(100% - 60vw);
-    height:30wv;
-    /* background-color: lime; */
+    height:30vw;
 }
 .team-cx .linea{
     position: relative;
@@ -373,12 +373,7 @@ header{
     left: 50px;
     color: #DEDEE0;
 }
-.team-dx{
-    width: 30wv;
-    height: 20px;
-    /* background-color: maroon; */
-    
-}
+
 .blocco{
     height: 15vw;
     width: 15vw;
@@ -571,6 +566,30 @@ footer h4{
     background-color: crimson;
     
 } */
+
+/* .debug .team-sx{
+    width: 30vw;
+    height: 20px;
+    background-color: lightseagreen;
+    
+}
+.debug .team-cx{
+    width: calc(100% - 60vw);
+    height:30vw;
+    background-color: lime;
+}
+.debug .team-cx .linea{
+    position: relative;
+    top: 80px;
+    left: 50px;
+    color: #DEDEE0;
+} */
+/* .debug .team-dx{
+    width: 30wv;
+    height: 20px;
+    background-color: maroon;
+     */
+}
 /* .debug .foot{
     width: calc(100% /5);
     height: 300px;
