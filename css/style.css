@@ -284,8 +284,9 @@ li a:hover{
 /*  */
 .team{
     background-color: #F5F5F5;
-    height: 507px;
-}
+    height: 30vw;
+    margin: 0px auto;}
+    
 .team2{
     padding: 50px 0;
     background-color: #B4D0E7;
@@ -314,30 +315,41 @@ li a:hover{
     margin-top: 100px;
     margin-bottom: 50px;
 }
-.team-sx{ 
-    width: 30%;
-    }
-.team-cx{ 
-    width: 40%;    
-    }
-.team-cx .linea{
-    position: relative;
-    top: 100px;
-    left: 0px;
 
+.team-sx{
+    width: 30wv;
+    height: 20px;
+    background-color: lightseagreen;
+    
 }
-.team-dx{ 
-    width: 30%;   
-    text-align: right;
+.team-cx{
+    width: calc(100% - 60vw);
+    height:30wv;
+    background-color: lime;
 }
-.blocco{
-    height: 250px;
-    width: 250px;
-    object-fit: scale-down;
+.team-dx{
+    width: 30wv;
+    height: 20px;
+    background-color: maroon;
+    
 }
-.blocco img{
-width: 50%;    
+
+.blocco-intsx{
+    height: 15vw;
+    width: 15vw;
+    background-color: cornflowerblue;
 }
+.blocco-intdx{
+    height: 15vw;
+    width: 15vw;
+    background-color: crimson;
+    float: right;
+}
+.blocco img {
+    width: 50%;
+    filter: invert(1);
+    vertical-align: middle;
+    }
 /* ****team logo***** */
 .designit{
     background-color: #A2D39B;
