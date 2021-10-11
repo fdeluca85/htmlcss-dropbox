@@ -10,10 +10,9 @@ body{
     line-height: 1.5;
 }
 
-p {
-    
+li{
+    list-style: none;
 }
-
 h2{
     font-size: 50px;
     margin-top: 100px;
@@ -58,7 +57,6 @@ h6{
 .blue{
     background-color: #0061FF;
     color: white;
-
 }
 .white{
     background-color: #fff;
@@ -70,8 +68,18 @@ h6{
     padding: 5px 15px;
     text-decoration: none;
     margin-top: 30px;
-    display:inline-block;    
+    display:inline-block;  
+    transition: 0.5s;  
 }
+.btn.blue:hover {
+    background-color: #61b5ff;
+    color: black;
+}
+.btn.white:hover {
+    background-color: #0061FF;
+    color: white;
+}
+
 .linea{
     display: inline-block;
     width: 50px;
@@ -117,16 +125,12 @@ header{
     margin: 0;
     display: inline;
     color: white;
-    padding: 5px 10px;
-
-    
+    padding: 5px 10px;    
 }
 .navbar{
     text-align: left;
 }
-li{
-    list-style: none;
-}
+
 .navbar li{
     display: inline-block;
     
@@ -137,11 +141,43 @@ li{
     padding:0 15px;
     text-decoration: none;
     display: inline-block;
+    
 }
 
-li a:hover{
-    text-decoration: underline;
+/* *****menu dropdown***** */
+.navbar ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+.navbar  ul li {
+    display: inline-block;
 }
+.navbar  ul li:hover {
+    background-color: wheat;
+    transition: 0.5s;
+}
+.navbar ul li:hover ul {
+    display: block;
+    transition: 0.5s;
+}
+.navbar ul li ul {
+    position: absolute;
+    /* width: 100px; */
+    display: none;
+  }
+.navbar ul li ul li { 
+    background: #e9dec7; 
+    display: block; 
+  }
+.navbar ul li ul li a {
+    display:block;
+} 
+.navbar ul li ul li:hover {
+    background: #dfc892;
+    transition: 0.5s;
+}
+
 
 
 /* *****main***** */
@@ -340,24 +376,14 @@ li a:hover{
 .team-dx{
     width: 30wv;
     height: 20px;
-    background-color: maroon;
+    /* background-color: maroon; */
     
 }
 .blocco{
     height: 15vw;
     width: 15vw;
 }
-.blocco-intsx{
-    height: 15vw;
-    width: 15vw;
-    background-color: cornflowerblue;
-}
-.blocco-intdx{
-    height: 15vw;
-    width: 15vw;
-    background-color: crimson;
-    float: right;
-}
+
 .blocco img {
     width: 50%;
     filter: invert(1);
@@ -414,6 +440,16 @@ li a:hover{
     top: 30px;
     right: 20px;
 }
+.faq-a{
+    padding: 20px;
+    display: none;
+    
+  }
+  
+  .faq h4:hover + div {
+      display: block;
+      
+    }
 /* *****footer***** */
 
 footer{
@@ -422,6 +458,37 @@ footer{
     background-color: black;
     margin-top: 100px;
 
+}
+.foot{
+    width: calc(100% /5);
+    color: white;
+    padding-bottom: 100px;    
+}
+footer h4{
+    color: white;
+    padding: 0 5px;
+    
+}
+
+.foot a{
+    display: block;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.foot-bottom .linea{
+    color: lightgray;
+    width: 150px;
+
+}
+
+.foot-bottom select{
+    display: block;
+    background-color: black;
+    color: lightgray;
+    border: none;
 }
 
 /* *****debug***** */
@@ -493,44 +560,33 @@ footer{
     background-color: crimson;
     margin-left: 10%;
 } */
-
- .foot{
+/* .debug .blocco-intsx{
+    height: 15vw;
+    width: 15vw;
+    background-color: cornflowerblue;
+}
+.debug .blocco-intdx{
+    height: 15vw;
+    width: 15vw;
+    background-color: crimson;
+    
+} */
+/* .debug .foot{
     width: calc(100% /5);
-    /* height: 300px;
+    height: 300px;
     border: 2px solid lightgray;    
-    background-color: teal; */
+    background-color: teal;
     color: white;
-    padding-bottom: 100px;
-    
-}
-footer h4{
-    color: white;
-    padding: 0 10px;
-    
-}
+    padding-bottom: 100px;    
+} */
 
-.foot a{
-    display: block;
-    list-style: none;
-    color: white;
-    text-decoration: none;
-    padding-top: 5px;
-    padding-left: 5px;
-}
 
-/* .foot-bottom{
+
+/*.debug .foot-bottom{
     height: 200px;
     background-color: tomato;
 } */
-.foot-bottom .linea{
-    color: lightgray;
-    width: 150px;
 
-}
-
-.foot-bottom select{
-    display: block;
-    background-color: black;
-    color: lightgray;
-    border: none;
-}
+/* .btn a:hover{
+    text-decoration: underline;
+} */
