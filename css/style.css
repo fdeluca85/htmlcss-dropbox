@@ -124,10 +124,12 @@ header{
 .navbar{
     text-align: left;
 }
-
+li{
+    list-style: none;
+}
 .navbar li{
     display: inline-block;
-    list-style: none;
+    
 }
 
 .navbar li a{
@@ -279,6 +281,7 @@ li a:hover{
 .team-titolo{
     width: 35%;
     margin-left: 10%;
+    margin-bottom: 50px;
 }
 
 /*  */
@@ -302,18 +305,19 @@ li a:hover{
     color: #61082B;
     font-weight: bold;
 }
-.team-logo{
+.team-logo img{
     padding-top: 20px;
     position: relative;
-    top: 0px;
-    left: 0px;
-    height: 100px;
+    top: 50px;
+    left: 50px;
+    height: 70px;
     object-fit: scale-down;
 }
 .team-txt{
     width: 80%;
     margin-top: 100px;
     margin-bottom: 50px;
+    margin-left: 50px;
 }
 
 .team-sx{
@@ -325,7 +329,13 @@ li a:hover{
 .team-cx{
     width: calc(100% - 60vw);
     height:30wv;
-    background-color: lime;
+    /* background-color: lime; */
+}
+.team-cx .linea{
+    position: relative;
+    top: 80px;
+    left: 50px;
+    color: #DEDEE0;
 }
 .team-dx{
     width: 30wv;
@@ -333,7 +343,10 @@ li a:hover{
     background-color: maroon;
     
 }
-
+.blocco{
+    height: 15vw;
+    width: 15vw;
+}
 .blocco-intsx{
     height: 15vw;
     width: 15vw;
@@ -349,6 +362,10 @@ li a:hover{
     width: 50%;
     filter: invert(1);
     vertical-align: middle;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     }
 /* ****team logo***** */
 .designit{
@@ -492,7 +509,7 @@ footer h4{
     
 }
 
-.foot ul,li,a{
+.foot a{
     display: block;
     list-style: none;
     color: white;
